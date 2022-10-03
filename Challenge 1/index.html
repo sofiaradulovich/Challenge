@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+        <script type="text/javascript" src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <h1><img src="Elementos graficos/Vector.png"></h1>
+            </div>
+            <div class="left">
+                <input class="text-input" id="input-texto" type="text" placeholder="Ingrese el texto aquí">
+            </div>
+            <div class="right">
+            
+                <img src="Elementos graficos/Muñeco.png" id="imagen-derecha">
+                <h1 id="texto-derecha">Ningún mensaje fue encontrdo</h1>
+             
+                <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                <button id="copiar" type="button" id="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="left-button">
+                <img src="Elementos graficos/Vector2.png" class="icono"><p class="icono">Solo minúsculas y sin acentos</p>
+                <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <footer class="hecho-por">
+            <p>Hecho por Irene Sofia Radulovich, 2022</p>
+        </footer>
+        <script src="script.js"></script>
+
+        
+    </body>
+</html>
+
